@@ -13,6 +13,7 @@
 		8A1383392721EF6B000DA580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1383382721EF6B000DA580 /* Preview Assets.xcassets */; };
 		8A1383402721F4AA000DA580 /* ChocolateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A13833F2721F4AA000DA580 /* ChocolateView.swift */; };
 		8A1383422721F6DE000DA580 /* BlueberryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1383412721F6DD000DA580 /* BlueberryView.swift */; };
+		8A4794FB2728548C0087FC05 /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4794FA2728548B0087FC05 /* FavouriteThingsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8A1383382721EF6B000DA580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A13833F2721F4AA000DA580 /* ChocolateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateView.swift; sourceTree = "<group>"; };
 		8A1383412721F6DD000DA580 /* BlueberryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueberryView.swift; sourceTree = "<group>"; };
+		8A4794FA2728548B0087FC05 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				8A1383332721EF65000DA580 /* ContentView.swift */,
 				8A13833F2721F4AA000DA580 /* ChocolateView.swift */,
 				8A1383412721F6DD000DA580 /* BlueberryView.swift */,
+				8A4794FA2728548B0087FC05 /* FavouriteThingsListView.swift */,
 			);
 			name = Views;
 			path = "New Group";
@@ -154,6 +157,7 @@
 			files = (
 				8A1383342721EF65000DA580 /* ContentView.swift in Sources */,
 				8A1383422721F6DE000DA580 /* BlueberryView.swift in Sources */,
+				8A4794FB2728548C0087FC05 /* FavouriteThingsListView.swift in Sources */,
 				8A1383322721EF65000DA580 /* FavouriteThingsApp.swift in Sources */,
 				8A1383402721F4AA000DA580 /* ChocolateView.swift in Sources */,
 			);
