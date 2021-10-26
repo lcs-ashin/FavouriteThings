@@ -13,7 +13,7 @@ struct BlueberryView: View {
     var body: some View {
         
         ScrollView {
-            VStack {
+            VStack(alignment: .leading) {
                 
                 Image("BlueberryPoundCake")
                     .resizable()

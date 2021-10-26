@@ -11,7 +11,7 @@ struct ChocolateView: View {
     var body: some View {
         
         ScrollView {
-            VStack {
+            VStack(alignment: .leading) {
                 
                 Image("cherry-garcia")
                     .resizable()

@@ -28,6 +28,12 @@ struct FavouriteThingsListView: View {
             }, label: {
                 Text("Cake🍰")
             })
+            
+            NavigationLink(destination: {
+                SunflowerView()
+            }, label: {
+                Text("Sunflower🌻")
+            })
        
         }
         .navigationTitle("Favourite Things")
