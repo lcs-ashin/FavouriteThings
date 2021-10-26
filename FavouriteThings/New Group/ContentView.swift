@@ -9,18 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        ScrollView {
-            VStack(alignment: .leading) {
-                Image("Bjorn")
-                    .resizable()
-                    .scaledToFit()
-                
-                Text("Bjorn is an engergetic puppy. He loves to play and take a nap. 🐶")
-                    .padding()
-                
-                Spacer()
-            }
+        VStack {
+            
+            Image("Bjorn")
+                .resizable()
+                .scaledToFit()
+            
+            Text("Bjorn is an engergetic puppy. He loves to play and sleep with my mom. 🐶")
+                .padding()
+            
+            Spacer()
+            
         }
         .navigationTitle("Bjorn🐶")
     }

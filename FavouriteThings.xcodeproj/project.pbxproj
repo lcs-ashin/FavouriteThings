@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		8A13832E2721EF65000DA580 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1383312721EF65000DA580 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
-		8A1383332721EF65000DA580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A1383332721EF65000DA580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		8A1383352721EF6B000DA580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1383382721EF6B000DA580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A13833F2721F4AA000DA580 /* ChocolateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateView.swift; sourceTree = "<group>"; };
@@ -56,11 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				8A1383312721EF65000DA580 /* FavouriteThingsApp.swift */,
-				8A1383332721EF65000DA580 /* ContentView.swift */,
+				8A50277B27284FA000B4828F /* Views */,
 				8A1383352721EF6B000DA580 /* Assets.xcassets */,
 				8A1383372721EF6B000DA580 /* Preview Content */,
-				8A13833F2721F4AA000DA580 /* ChocolateView.swift */,
-				8A1383412721F6DD000DA580 /* BlueberryView.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -71,6 +69,17 @@
 				8A1383382721EF6B000DA580 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A50277B27284FA000B4828F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A1383332721EF65000DA580 /* ContentView.swift */,
+				8A13833F2721F4AA000DA580 /* ChocolateView.swift */,
+				8A1383412721F6DD000DA580 /* BlueberryView.swift */,
+			);
+			name = Views;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

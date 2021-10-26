@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  BlueberryView.swift
 //  FavouriteThings
 //
 //  Created by Eunbi Shin on 2021-10-21.
@@ -7,29 +7,34 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct BlueberryView: View {
+    
+    // "body" is a computed property
     var body: some View {
         
         ScrollView {
-            VStack(alignment: .leading) {
-                Image("Bjorn")
+            VStack {
+                
+                Image("BlueberryPoundCake")
                     .resizable()
                     .scaledToFit()
                 
-                Text("Bjorn is an engergetic puppy. He loves to play and take a nap. 🐶")
+                Text("This blueberry pound cake was the best dessert I made. 🫐")
                     .padding()
                 
                 Spacer()
+                
             }
+           
         }
-        .navigationTitle("Bjorn🐶")
+        .navigationTitle("Cake🍰")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct BlueberryView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ContentView()
+            BlueberryView()
         }
     }
 }
