@@ -9,14 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("Bjorn")
-            .resizable()
-            .scaledToFit()
+        VStack {
+            
+            Image("Bjorn")
+                .resizable()
+                .scaledToFit()
+
+            Text("Bjorn is an engergetic puppy. He loves to play and sleep with my mom. 🐶")
+                .padding()
+            
+            Spacer()
+            
+        }
+        .navigationTitle("Bjorn🐶")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView {
+            ContentView()
+        }
     }
 }
