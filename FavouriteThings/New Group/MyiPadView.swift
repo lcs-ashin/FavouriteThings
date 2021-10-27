@@ -21,7 +21,7 @@ struct MyiPadView: View {
                 Spacer()
             }
         }
-        navigationTitle("My iPad🎨")
+        .navigationTitle("My iPad🎨")
     }
 }
 

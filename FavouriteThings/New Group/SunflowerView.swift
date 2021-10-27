@@ -15,6 +15,8 @@ struct SunflowerView: View {
                 Image("Sunflower")
                     .resizable()
                     .scaledToFit()
+                    .clipShape(Ellipse())
+                    .padding()
                 
                 Text("I love every kind of flowers. I took this photo of sunflower when I went to Jeju Island in Korea last year. It was very windy that day, but I captured these beautiful flowers.🌻")
                     .padding()

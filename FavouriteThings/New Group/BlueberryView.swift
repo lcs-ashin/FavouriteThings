@@ -18,6 +18,7 @@ struct BlueberryView: View {
                 Image("BlueberryPoundCake")
                     .resizable()
                     .scaledToFit()
+                    .padding()
                 
                 Text("This blueberry pound cake was the best dessert I made.🫐 I like to make poundcake when I go back to my home during break, and making the cake with fresh blueberries was the best choice to do.")
                     .padding()

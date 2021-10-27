@@ -14,6 +14,8 @@ struct SeashellView: View {
                 Image("Seashell")
                     .resizable()
                     .scaledToFit()
+                    .clipShape(Capsule())
+                    .padding()
                 
                 Text("I like ocean very much. I feel really calm and happy just by looking at the spacious ocean and the sky. The sounds of the waves and seagulls is the best music.🌊")
                     .padding()
@@ -21,7 +23,7 @@ struct SeashellView: View {
                 Spacer()
             }
         }
-        navigationTitle("Ocean🐚")
+        .navigationTitle("Ocean🐚")
     }
 }
 

@@ -16,6 +16,7 @@ struct ChocolateView: View {
                 Image("cherry-garcia")
                     .resizable()
                     .scaledToFit()
+                    .padding()
                 
                 Text("Cherry garcia is the best ice cream!!🍒🍫 I always get this flavour but unfortunately, I can't get this flavour in the convenient store in Lakefield, so I am sad.🥲")
                     .padding()
