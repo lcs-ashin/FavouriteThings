@@ -17,7 +17,7 @@ struct ChocolateView: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("Cherry garcia is the best ice cream!!🍒🍫")
+                Text("Cherry garcia is the best ice cream!!🍒🍫 I always get this flavour but unfortunately, I can't get this flavour in the convenient store in Lakefield, so I am sad.🥲")
                     .padding()
                 
                 Spacer()
