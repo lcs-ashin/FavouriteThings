@@ -17,9 +17,40 @@ struct SeashellView: View {
                     .clipShape(Capsule())
                     .padding()
                 
-                Text("I like ocean very much. I feel really calm and happy just by looking at the spacious ocean and the sky. The sounds of the waves and seagulls is the best music.🌊")
+                Text("I like ocean very much. I feel really calm and happy just by looking at the spacious ocean and the sky. The sounds of the waves and seagulls are the best music.🌊")
                     .padding()
                 
+                Spacer()
+            }
+            
+            HStack() {
+                Spacer()
+                VStack() {
+                    Image("OceanOne")
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(Circle())
+                       // .padding()
+                        .shadow(radius: 5)
+                }
+                
+                VStack() {
+                    Image("OceanTwo")
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(Circle())
+                     //   .padding()
+                        .shadow(radius: 5)
+                }
+                
+                VStack() {
+                    Image("OceanThree")
+                        .resizable()
+                       .scaledToFit()
+                        .clipShape(Circle())
+                        //.padding()
+                        .shadow(radius: 5)
+                }
                 Spacer()
             }
         }
@@ -32,6 +63,6 @@ struct SeashellView_Previews: PreviewProvider {
         NavigationView {
             SeashellView()
         }
-       
+        
     }
 }
