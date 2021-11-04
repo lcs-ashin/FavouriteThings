@@ -14,7 +14,9 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 
                // Create an INSTANCE of the extracted view
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Bjorn",
+                                 caption: "A photo of Bjorn.",
+                                 credit: "Photo credit: Amy Shin")
                 
                 Text("Bjorn is an engergetic puppy. He loves to play and take a nap.🐶 He is one year old so he is curious of everything around him. However, this puppy is afraid of other dogs.😅 He is not quite ready to see the big world.")
                     .padding()

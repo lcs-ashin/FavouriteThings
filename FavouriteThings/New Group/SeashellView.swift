@@ -12,7 +12,9 @@ struct SeashellView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Seashell",
+                                 caption: "A seashell I found on a beach.",
+                                 credit: "Photo credit: Amy Shin")
                 
                 Text("I like ocean very much. I feel really calm and happy just by looking at the spacious ocean and the sky. The sounds of the waves and seagulls are the best music.🌊")
                     .padding()

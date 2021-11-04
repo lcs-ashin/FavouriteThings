@@ -68,7 +68,6 @@
 				8A1383312721EF65000DA580 /* FavouriteThingsApp.swift */,
 				8A50277B27284FA000B4828F /* Views */,
 				8A1383352721EF6B000DA580 /* Assets.xcassets */,
-				8A1383372721EF6B000DA580 /* Preview Content */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -100,6 +99,7 @@
 				8A4794FC27285B0B0087FC05 /* SunflowerView.swift */,
 				8AF754E02728CEB800693490 /* SeashellView.swift */,
 				8AF754E22728D3A700693490 /* MyiPadView.swift */,
+				8A1383372721EF6B000DA580 /* Preview Content */,
 			);
 			name = Views;
 			path = "New Group";

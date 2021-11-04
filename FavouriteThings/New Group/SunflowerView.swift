@@ -13,7 +13,9 @@ struct SunflowerView: View {
         ScrollView {
             VStack(alignment: .leading) {
             
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Sunflower",
+                                 caption: "A photo of sunflowers in Korea.",
+                                 credit: "Photo credit: Amy Shin")
                 Text("I love every kind of flowers. I took this photo of sunflower when I went to Jeju Island in Korea last year. It was very windy that day, but I captured these beautiful flowers.🌻")
                     .padding()
                 

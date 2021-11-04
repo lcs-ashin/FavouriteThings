@@ -8,16 +8,23 @@
 import SwiftUI
 
 struct PhotoCaptionView: View {
+    
+    // MARK: Stored properties
+    let imageName: String
+    let caption: String
+    let credit: String
+    
+    // MARK: Computed properties
     var body: some View {
         VStack(alignment: .leading) {
             
-            Image("Bjorn")
+            Image(imageName)
                 .resizable()
                 .scaledToFit()
             
             Group {
-                Text("A photo of Bjorn.")
-                Text("Photo credit: Amy Shin")
+                Text(caption)
+                Text(credit)
             }
             .padding(.horizontal)
             .font(.caption)
@@ -27,6 +34,8 @@ struct PhotoCaptionView: View {
 
 struct PhotoCaptionView_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoCaptionView()
+        PhotoCaptionView(imageName: "Bjorn",
+                         caption: "A photo of Bjorn.",
+                         credit: "Photo credit: Amy Shin")
     }
 }
