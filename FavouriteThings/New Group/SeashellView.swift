@@ -11,11 +11,8 @@ struct SeashellView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image("Seashell")
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(Capsule())
-                    .padding()
+                
+                PhotoCaptionView()
                 
                 Text("I like ocean very much. I feel really calm and happy just by looking at the spacious ocean and the sky. The sounds of the waves and seagulls are the best music.🌊")
                     .padding()
