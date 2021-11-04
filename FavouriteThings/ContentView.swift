@@ -12,10 +12,20 @@ struct ContentView: View {
         
         ScrollView {
             VStack(alignment: .leading) {
-                Image("Bjorn")
-                    .resizable()
-                    .scaledToFit()
-                    .padding()
+                
+                VStack(alignment: .leading) {
+                    
+                    Image("Bjorn")
+                        .resizable()
+                        .scaledToFit()
+                  
+                    Group {
+                        Text("A photo of Bjorn.")
+                        Text("Photo credit: Amy Shin")
+                    }
+                    .padding(.horizontal)
+                    .font(.caption)
+                }
                 
                 Text("Bjorn is an engergetic puppy. He loves to play and take a nap.🐶 He is one year old so he is curious of everything around him. However, this puppy is afraid of other dogs.😅 He is not quite ready to see the big world.")
                     .padding()
