@@ -8,19 +8,23 @@
 import SwiftUI
 
 struct NavigationCaptionView: View {
+    let imageName: String
+    let title: String
+    let caption: String
+    
     var body: some View {
         HStack {
             
-            Image("BjornTwo")
+            Image(imageName)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 50, height: 50, alignment: .center)
                 .clipped()
             
             VStack(alignment: .leading) {
-                Text("Bjorn🐶")
+                Text(title)
                     .bold()
-                Text("A cute and energetic poodle!")
+                Text(caption)
                     .font(.caption)
             }
         }
@@ -29,6 +33,8 @@ struct NavigationCaptionView: View {
 
 struct NavigationCaptionView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationCaptionView()
+        NavigationCaptionView(imageName: "BjornTwo",
+                              title: "Bjorn🐶",
+                              caption: "A cute energetic poodle!")
     }
 }

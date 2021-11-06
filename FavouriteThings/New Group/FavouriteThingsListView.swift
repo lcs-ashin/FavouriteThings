@@ -14,38 +14,50 @@ struct FavouriteThingsListView: View {
             NavigationLink(destination: {
                 ContentView()
             }, label: {
-                NavigationCaptionView()
+                NavigationCaptionView(imageName: "BjornTwo",
+                                      title: "Bjorn🐶",
+                                      caption: "A cute energetic poodle!")
                 
             })
             
             NavigationLink(destination: {
                 ChocolateView()
             }, label: {
-                Text("Ice cream🍦")
+                NavigationCaptionView(imageName: "cherry-garcia",
+                                      title: "Ice Cream🍦",
+                                      caption: "The best ice cream ever!")
             })
             
             NavigationLink(destination: {
                 BlueberryView()
             }, label: {
-                Text("Cake🍰")
+                NavigationCaptionView(imageName: "BlueberryPoundCake",
+                                      title: "Cake🍰",
+                                      caption: "I love poundcake!")
             })
             
             NavigationLink(destination: {
                 SunflowerView()
             }, label: {
-                Text("Sunflower🌻")
+                NavigationCaptionView(imageName: "Sunflower",
+                                      title: "Sunflower🌻",
+                                      caption: "Just by looking at them, I feel happiness.")
             })
             
             NavigationLink(destination: {
                 SeashellView()
             }, label: {
-                Text("Ocean🐚")
+                NavigationCaptionView(imageName: "Seashell",
+                                      title: "Ocean🌊",
+                                      caption: "I love the wind and waves.")
             })
             
             NavigationLink(destination: {
                 MyiPadView()
             }, label: {
-                Text("My iPad🎨")
+                NavigationCaptionView(imageName: "MyiPad",
+                                      title: "My iPad✍️",
+                                      caption: "I can't live without it anymore...😎")
             })
             
         }
@@ -60,23 +72,3 @@ struct FavouriteThingsListView_Previews: PreviewProvider {
         }
     }
 }
-//
-//struct ExtractedView: View {
-//    var body: some View {
-//        HStack {
-//
-//            Image("BjornTwo")
-//                .resizable()
-//                .scaledToFit()
-//                .frame(width: 50, height: 50, alignment: .center)
-//                .clipped()
-//
-//            VStack(alignment: .leading) {
-//                Text("Bjorn🐶")
-//                    .bold()
-//                Text("A cute and energetic poodle!")
-//                    .font(.caption)
-//            }
-//        }
-//    }
-//}
