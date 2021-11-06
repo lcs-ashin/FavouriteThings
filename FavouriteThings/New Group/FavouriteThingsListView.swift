@@ -14,21 +14,7 @@ struct FavouriteThingsListView: View {
             NavigationLink(destination: {
                 ContentView()
             }, label: {
-                HStack {
-                    
-                    Image("BjornTwo")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    
-                    VStack(alignment: .leading) {
-                        Text("Bjorn🐶")
-                            .bold()
-                        Text("A cute and energetic poodle!")
-                            .font(.caption)
-                    }
-                }
+                NavigationCaptionView()
                 
             })
             
@@ -74,3 +60,23 @@ struct FavouriteThingsListView_Previews: PreviewProvider {
         }
     }
 }
+//
+//struct ExtractedView: View {
+//    var body: some View {
+//        HStack {
+//
+//            Image("BjornTwo")
+//                .resizable()
+//                .scaledToFit()
+//                .frame(width: 50, height: 50, alignment: .center)
+//                .clipped()
+//
+//            VStack(alignment: .leading) {
+//                Text("Bjorn🐶")
+//                    .bold()
+//                Text("A cute and energetic poodle!")
+//                    .font(.caption)
+//            }
+//        }
+//    }
+//}
