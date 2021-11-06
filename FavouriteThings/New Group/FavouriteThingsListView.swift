@@ -10,11 +10,26 @@ import SwiftUI
 struct FavouriteThingsListView: View {
     var body: some View {
         List {
-           
+            
             NavigationLink(destination: {
                 ContentView()
             }, label: {
-                Text("Bjorn🐶")
+                HStack {
+                    
+                    Image("BjornTwo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height: 50, alignment: .center)
+                        .clipped()
+                    
+                    VStack(alignment: .leading) {
+                        Text("Bjorn🐶")
+                            .bold()
+                        Text("A cute and energetic poodle!")
+                            .font(.caption)
+                    }
+                }
+                
             })
             
             NavigationLink(destination: {
@@ -46,7 +61,7 @@ struct FavouriteThingsListView: View {
             }, label: {
                 Text("My iPad🎨")
             })
-       
+            
         }
         .navigationTitle("Favourite Things")
     }
