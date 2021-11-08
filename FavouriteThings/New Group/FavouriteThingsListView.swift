@@ -16,7 +16,7 @@ struct FavouriteThingsListView: View {
             }, label: {
                 NavigationCaptionView(imageName: "BjornTwo",
                                       title: "Bjorn🐶",
-                                      caption: "A cute energetic poodle!")
+                                      navigationCaption: "A cute energetic poodle!")
                 
             })
             
@@ -25,7 +25,7 @@ struct FavouriteThingsListView: View {
             }, label: {
                 NavigationCaptionView(imageName: "cherry-garcia",
                                       title: "Ice Cream🍦",
-                                      caption: "The best ice cream ever!")
+                                      navigationCaption: "The best ice cream ever!")
             })
             
             NavigationLink(destination: {
@@ -33,7 +33,7 @@ struct FavouriteThingsListView: View {
             }, label: {
                 NavigationCaptionView(imageName: "BlueberryPoundCake",
                                       title: "Cake🍰",
-                                      caption: "I love poundcake!")
+                                      navigationCaption: "I love poundcake!")
             })
             
             NavigationLink(destination: {
@@ -41,7 +41,7 @@ struct FavouriteThingsListView: View {
             }, label: {
                 NavigationCaptionView(imageName: "Sunflower",
                                       title: "Sunflower🌻",
-                                      caption: "Just by looking at them, I feel happiness.")
+                                      navigationCaption: "Just by looking at them, I feel happiness.")
             })
             
             NavigationLink(destination: {
@@ -49,7 +49,7 @@ struct FavouriteThingsListView: View {
             }, label: {
                 NavigationCaptionView(imageName: "Seashell",
                                       title: "Ocean🌊",
-                                      caption: "I love the wind and waves.")
+                                      navigationCaption: "I love the wind and waves.")
             })
             
             NavigationLink(destination: {
@@ -57,7 +57,7 @@ struct FavouriteThingsListView: View {
             }, label: {
                 NavigationCaptionView(imageName: "MyiPad",
                                       title: "My iPad✍️",
-                                      caption: "I can't live without it anymore...😎")
+                                      navigationCaption: "I can't live without it anymore...😎")
             })
             
         }

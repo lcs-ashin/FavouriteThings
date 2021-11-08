@@ -10,7 +10,7 @@ import SwiftUI
 struct NavigationCaptionView: View {
     let imageName: String
     let title: String
-    let caption: String
+    let navigationCaption: String
     
     var body: some View {
         HStack {
@@ -24,7 +24,7 @@ struct NavigationCaptionView: View {
             VStack(alignment: .leading) {
                 Text(title)
                     .bold()
-                Text(caption)
+                Text(navigationCaption)
                     .font(.caption)
             }
         }
@@ -35,6 +35,6 @@ struct NavigationCaptionView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationCaptionView(imageName: "BjornTwo",
                               title: "Bjorn🐶",
-                              caption: "A cute energetic poodle!")
+                              navigationCaption: "A cute energetic poodle!")
     }
 }
